@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+    * {
+        font-family: 'Abril Fatface', cursive;
+        color: white;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #9ca2af;
+    }
+
+    .display {
+        grid-column: 1 / -1;
+        background-color: #363636;
+        border-radius: 24px;
+        padding: 15px;
+        display: flex;
+        margin: 10px 10px 20px;
+        flex-direction: column;
+        align-items: flex-end;
+        text-align: right;
+        justify-content: space-between;
+        word-wrap: break-word;
+        box-shadow:0px 0px 0px 10px #00000033;
+    }
+
+    #valor-anterior {
+        font-size: 2em;
+    }
+    #valor-nuevo{
+        font-size: 2.5em;
+    }
+    
+
+
+
+
+    .col-2{
+        grid-column: span 2;
+    }
+
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .calculadora {
+        display: grid;
+        grid-template-columns: repeat(4, 85px);
+        grid-template-rows: 160px repeat(5, 85px); 
+        background-color: #2567ca;
+        padding: 25px;
+        border-radius: 24px;
+        box-shadow: 15px 10px 0px 5px #00000033;
+    }
+
+
+    button {
+        cursor: pointer;
+        margin: 5px;
+        padding: 0;
+        border-radius: 24px;
+        font-size: 2em;
+        border: none;
+        background-color: #2567ca;
+        box-shadow: 5px 5px 10px 3px #00000033;
+    }
+
+    button:active{
+    background-color: rgb(41, 76, 129);
+    }
+
+
+
+
+
+
+
+
