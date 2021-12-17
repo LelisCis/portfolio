@@ -1,0 +1,95 @@
+.boton-verde {
+    background-color: #96c93e !important;
+    border: none;
+} 
+
+.boton-comprar {
+    background-color: #29a744 !important;
+    border: none;
+}
+
+
+
+ 
+ @media (max-width: 410px) { 
+    .mi_contenedor h1 {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .mi_contenedor h6 {
+        font-size: 12px;
+
+    }
+    div .mi_contenedor {
+        transform: translate(-50%, -50%);
+        width: 80%;
+
+    }
+    .mi_contenedor .btn {
+        font-size: 10px;
+   }
+
+} 
+
+@media (min-width: 410px){ 
+    .mi_contenedor h1 {
+        font-size: 16px;
+    }
+    .mi_contenedor h6 {
+        font-size: 14px;
+    }
+    div .mi_contenedor {
+        transform: translate(-40%, -50%);
+        width: 70%;
+    }
+    .mi_contenedor .btn {
+        font-size: 14px;
+}
+   
+   } 
+
+   @media (min-width: 600px){ 
+    .mi_contenedor h1 {
+        font-size: 18px;
+    }
+    .mi_contenedor h6 {
+        font-size: 16px;
+    }
+    div .mi_contenedor {
+        transform: translate(-30%, -50%);
+        width: 50%;
+    }
+    .mi_contenedor .btn {
+        font-size: 14px;
+}
+   
+   } 
+
+@media (min-width: 900px) {
+     .mi_contenedor h1 {
+        font-size: 20px;
+    }
+    .mi_contenedor h6 {
+        font-size: 18px;
+    } 
+    div .mi_contenedor {
+        transform: translate(-20%, -50%);
+        width: 50%;
+    }
+   }
+
+ @media (min-width:1024px) { 
+
+    .mi_contenedor h1 {
+        font-size: 22px;
+    }
+    .mi_contenedor h6 {
+        font-size: 20px;
+    } 
+    div .mi_contenedor {
+        transform: translate(-20%, -30%);
+        width: 50%;
+    }
+
+
+} 
